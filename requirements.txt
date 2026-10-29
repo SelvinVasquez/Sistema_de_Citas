@@ -1,0 +1,6 @@
+Flask==3.0.3
+pymongo>=4.6
+# Solo para producción (servidor WSGI):
+waitress>=3.0
+# Solo para ejecutar las pruebas sobre un MongoDB simulado:
+mongomock>=4.1
